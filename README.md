@@ -4,9 +4,12 @@ A site for a beauty salon;
 
 I Created this Site to evolve my experience in the programming world.
 
-### Responsive = For Mobile
+### Responsive
 
-- ver 1.5a
+- Mobile: OK
+- Desktop: No
+
+- ver 1.6a
 
 ## Technologies
 
