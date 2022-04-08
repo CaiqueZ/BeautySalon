@@ -123,6 +123,32 @@ nav .menu {
   visibility: hidden;
 }
 
+nav ul li a {
+  transition: color 0.15s;
+  position: relative;
+}
+
+.title:hover {
+  color: var(--base-color);
+}
+
+.title::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--base-color);
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+  transition: width 0.15s;
+}
+
+.title:hover::after {
+  width: 100%;
+}
+
+/* ========= MENU MOBILE ======== */
+
 nav.show .menu {
   position: fixed;
   visibility: visible;
@@ -132,6 +158,11 @@ nav.show .menu {
   width: 100vw;
   top: 0;
   left: 0;
+}
+
+nav.show .menu {
+  display: grid;
+  place-content: center;
 }
 
 nav ul.grid {
