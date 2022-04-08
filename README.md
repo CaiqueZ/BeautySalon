@@ -3,7 +3,7 @@
 
  I Created this Site to evolve my experience in the programming world.
 
-- ver a1.3
+- ver 1.4a
 
-## Tecnologies
+## Technologies
 - HTML & CSS and JavaScript
