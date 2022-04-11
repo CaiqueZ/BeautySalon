@@ -9,7 +9,7 @@ I Created this Site to evolve my experience in the programming world.
 - Mobile: OK
 - Desktop: No
 
-- ver 0.2.1a
+- ver 0.2.2a
 
 ## Technologies
 
